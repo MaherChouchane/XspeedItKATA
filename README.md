@@ -30,4 +30,5 @@ run test : maven test
 Resultat :
 
 ######### INPUT               -> [1, 6, 3, 8, 4, 1, 6, 8, 9, 5, 2, 5, 7, 7, 3]
+
 ######### OUTPUT (OPTIMIZED)  -> [19, 64, 37, 82, 163, 8, 55, 7]```
