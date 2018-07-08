@@ -18,5 +18,7 @@ public class BoxesOptimizerTest {
 	@Test
 	public void test_optimize() throws Exception {
 		assertEquals("[19, 64, 37, 82, 163, 8, 55, 7]", BoxesOptimizer.optimizeBoxes(10, 1, 6, 3, 8, 4, 1, 6, 8, 9, 5, 2, 5, 7, 7, 3).toString());
+		System.out.println("######### INPUT               -> [1, 6, 3, 8, 4, 1, 6, 8, 9, 5, 2, 5, 7, 7, 3]");
+		System.out.println("######### OUTPUT (OPTIMIZED)  -> " + BoxesOptimizer.optimizeBoxes(10, 1, 6, 3, 8, 4, 1, 6, 8, 9, 5, 2, 5, 7, 7, 3).toString());
 	}
 }
